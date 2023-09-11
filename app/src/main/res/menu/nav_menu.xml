@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemOne"
+            android:title="One"
+            android:icon="@drawable/ic_baseline_filter_1_24"
+            />
+        <item
+            android:id="@+id/itemTwo"
+            android:title="Two"
+            android:icon="@drawable/ic_baseline_filter_2_24"/>
+        <item
+            android:id="@+id/itemThree"
+            android:title="Three"
+            android:icon="@drawable/ic_baseline_filter_3_24"/>
+    </group>
+</menu>
